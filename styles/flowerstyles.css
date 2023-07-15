@@ -1,0 +1,247 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'lato', sans-serif;
+}
+
+#header {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    padding: 0px 240px;
+    justify-content: space-between;
+   
+
+}
+
+#profile-pic {
+    margin-top: 50px;
+}
+
+.content-title {
+    color: #272727;
+    font-size: 65px;
+    font-weight: 800;
+    width: 750px;
+    margin-bottom: 0px;
+
+
+}
+
+.content-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    width: 634px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 32px 0px 32px 0px;
+}
+
+.pry-btn {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    margin-top: 0px;
+
+}
+
+.main-content {
+   background-color: #FFF;
+   max-width: 594px;
+   margin: 0px auto;
+}
+
+
+.upper {
+        color: #272727;
+        text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top :178px;
+
+}
+.paragraph{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+line-height: 30px; /* 166.667% */
+
+}
+.main-image{
+    display: flex;
+    gap:28px;
+    justify-content: center;
+
+}
+.image-1{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+flex-shrink: 0;
+;
+}
+.image-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+flex-shrink: 0;
+}
+.image-3{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+flex-shrink: 0;
+}
+.bun{
+    color: #272727;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px; /* 145.833% */
+margin-left: 150px;
+margin-top: 40px;}
+#sale-heading{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+#pink{
+    color: #E55473;
+font-size: 40px;
+font-weight: 800;
+}
+.sale-poster{
+    text-align: center;
+    display: flex;
+    gap: 186px;
+    justify-content: center;
+    margin-top: 200px;
+    padding: 100px 0px;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+}
+#sale-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+width: 594px;
+margin: 24px auto;
+}
+.flower-img{
+    display: flex;
+    justify-content: center;
+flex-shrink: 0;
+gap:30px;
+}
+.social{
+    text-align: center;
+    justify-content: center;
+}
+.social-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width :594px;
+margin :25px auto 50px;
+}
+.social-header{
+    color: #272727;
+font-size: 40px;
+font-weight: 800px;
+margin-top : 100px;
+}
+.background{
+   text-align: center;
+    width: 1440px;
+height: 449px;
+flex-shrink: 0;
+    background-image: url(../Flower\ Asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    margin:130px auto 0px;
+}
+.background-header{
+    color: #272727;
+font-size: 40px;
+font-weight: 800px;
+margin-bottom: 0px;
+padding-top: 122px;
+}
+.background-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin: 16px 0px 50px 0px;
+}
+.background-email{
+    width: 700px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+ border: none;
+}
+::-webkit-input-placeholder
+{
+    padding: 23px 513px 23px 23px;
+}
+.footer-flower{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    padding-top: 128px;
+    margin-top: 128px;
+    padding-bottom:128px ;
+}
+#footer-heading{
+    color: #E55473;
+font-size: 48px;
+font-weight: 800;
+margin-bottom: 0px;
+}
+#footer-paragraph{
+    color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin :24px auto 32px;
+width: 625px;
+}
+#footer-copyright{
+    color: rgba(255, 255, 255, 0.40);
+    margin-top: 0px;
+
+font-size: 16px;
+
+font-weight: 400;
+
+}
+.footer-bonus{
+    text-align: center;
+    margin-top: 130px;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.bonus-heading{
+    color :#E55473;
+font-size: 48px;
+font-weight: 800;
+margin-bottom: 0px;
+}
+.bonus-paragraph{
+    width: 800px;
+    font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin :24px auto 32px;
+}
